@@ -5,6 +5,14 @@ Vetlog Spring Boot
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=josdem_vetlog-spring-boot&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=josdem_vetlog-spring-boot)
 ---------------------------------------
 Maintain your pet's history organized.
+## Quickstart
+
+```bash
+git clone https://github.com/josdem/vetlog-spring-boot.git
+cd vetlog-spring-boot
+./mvnw spring-boot:run
+# profile ile:
+# ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 
 #### Features
 
